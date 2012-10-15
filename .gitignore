@@ -1,1 +1,2 @@
 lib/*.zip
+lib/datomic-free*

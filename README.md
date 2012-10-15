@@ -26,7 +26,14 @@ The following code will download `dataomic-free-0.8.3551.zip` to the
 
     wget -P lib http://downloads.datomic.com/0.8.3551/datomic-free-0.8.3551.zip
 
-For an a complete list of possible downloads see [Datomic Free][8].
+For an a complete list of possible downloads see [Datomic Free][8]
+
+### Unpacking
+
+    unzip -d lib lib/datomic-free-0.8.3551.zip
+
+uncompresses the downloaded library. Examine the 
+[directory listing][9] if you want to know what will get unpacked.
 
 [1]: http://www.nljug.org/jfall/ "JFall homepage"
 [2]: https://github.com/dvberkel/jfall2012-datomic/blob/master/proposal.md "The proposal for this talk on GitHub"
@@ -36,4 +43,5 @@ For an a complete list of possible downloads see [Datomic Free][8].
 [6]: http://downloads.datomic.com/free.html "Datomic free download page"
 [7]: http://www.datomic.com/datomic-free-edition-license.html "Details of the Datomic Free Edition License"
 [8]: http://downloads.datomic.com/free.html "Datomic Free download page"
+[9]: https://github.com/dvberkel/jfall2012-datomic/blob/master/datomic-free.md "directory listing for datomic-free-0.8.3551.zip"
 
