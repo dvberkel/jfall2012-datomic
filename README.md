@@ -18,8 +18,7 @@ website][5]. The presentation will use the [free edition][6].
 Instead of following these instructions and performing the commands
 you can perfom them automatically by invoking
 
-    curl -L
-    https://raw.github.com/dvberkel/jfall2012-datomic/master/lib/installer.sh | bash
+    curl -L https://raw.github.com/dvberkel/jfall2012-datomic/master/lib/installer.sh | bash
 
 See [installer.sh][12] for the details.
 
