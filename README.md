@@ -15,6 +15,14 @@ There a two editions of [Datomic][4], a free edition and a pro edition. The
 difference between the editions can be found on the [Datomic
 website][5]. The presentation will use the [free edition][6].
 
+Instead of following these instructions and performing the commands
+you can perfom them automatically by invoking
+
+    curl -L
+    https://raw.github.com/dvberkel/jfall2012-datomic/master/lib/installer.sh | bash
+
+See [installer.sh][12] for the details.
+
 ### Downloading
 
 Datomic Free can be obtained from the [download page][6]. By
@@ -73,6 +81,6 @@ and should produce the following [directory listing][11].
 [8]: http://downloads.datomic.com/free.html "Datomic Free download page"
 [9]: https://github.com/dvberkel/jfall2012-datomic/blob/master/datomic-free.md "directory listing for datomic-free-0.8.3551.zip"
 [10]: http://docs.datomic.com/getting-started.html "Getting Started guide for Datomic"
-[11]:
-https://github.com/dvberkel/jfall2012-datomic/blob/master/datomic-repository.md "directory listing for datomic maven repository"
+[11]: https://github.com/dvberkel/jfall2012-datomic/blob/master/datomic-repository.md "directory listing for datomic maven repository"
+[12]: https://github.com/dvberkel/jfall2012-datomic/blob/master/lib/installer.sh "Install script for Datomic"
 
