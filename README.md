@@ -47,6 +47,9 @@ It should greet you with the following message.
     Type Shell.help(); for help.
     datomic % 
 
+With this shell you could follow along with the [getting started][10]
+section of the Datomic documentation.
+
 [1]: http://www.nljug.org/jfall/ "JFall homepage"
 [2]: https://github.com/dvberkel/jfall2012-datomic/blob/master/proposal.md "The proposal for this talk on GitHub"
 [3]: https://trello.com/board/jfall-2012-datomic/4ff6d141731da3d517067900 "Trello board for the JFall 2012 Datomic Session Proposal."
@@ -56,4 +59,5 @@ It should greet you with the following message.
 [7]: http://www.datomic.com/datomic-free-edition-license.html "Details of the Datomic Free Edition License"
 [8]: http://downloads.datomic.com/free.html "Datomic Free download page"
 [9]: https://github.com/dvberkel/jfall2012-datomic/blob/master/datomic-free.md "directory listing for datomic-free-0.8.3551.zip"
+[10]: http://docs.datomic.com/getting-started.html "Getting Started guide for Datomic"
 
