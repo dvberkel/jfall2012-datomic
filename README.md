@@ -50,6 +50,19 @@ It should greet you with the following message.
 With this shell you could follow along with the [getting started][10]
 section of the Datomic documentation.
 
+### Installing in maven repository
+
+The code examples in this project use [Apache Maven][11] as a project
+managment tool. In order to use Datomic with maven the Datomic library
+needs to be installed into the maven repository.
+
+The following command install the free 0.8.3551 version into the
+repository
+
+    mvn install:install-file -DgroupId=com.datomic -DartifactId=datomic-free -Dfile=lib/datomic-free-0.8.3551/datomic-free-0.8.3551.jar -DpomFile=lib/datomic-free-0.8.3551/pom.xml
+
+and should produce the following [directory listing][11].
+
 [1]: http://www.nljug.org/jfall/ "JFall homepage"
 [2]: https://github.com/dvberkel/jfall2012-datomic/blob/master/proposal.md "The proposal for this talk on GitHub"
 [3]: https://trello.com/board/jfall-2012-datomic/4ff6d141731da3d517067900 "Trello board for the JFall 2012 Datomic Session Proposal."
@@ -60,4 +73,6 @@ section of the Datomic documentation.
 [8]: http://downloads.datomic.com/free.html "Datomic Free download page"
 [9]: https://github.com/dvberkel/jfall2012-datomic/blob/master/datomic-free.md "directory listing for datomic-free-0.8.3551.zip"
 [10]: http://docs.datomic.com/getting-started.html "Getting Started guide for Datomic"
+[11]:
+https://github.com/dvberkel/jfall2012-datomic/blob/master/datomic-repository.md "directory listing for datomic maven repository"
 
