@@ -90,7 +90,7 @@ I would advice you to look into the following projects
 [10]: http://docs.datomic.com/getting-started.html "Getting Started guide for Datomic"
 [11]: https://github.com/dvberkel/jfall2012-datomic/blob/master/datomic-repository.md "directory listing for datomic maven repository"
 [12]: https://github.com/dvberkel/jfall2012-datomic/blob/master/lib/installer.sh "Install script for Datomic"
-[13]: https://github.com/dvberkel/jfall2012-datomic/tree/master/lib "Exploring Datomic via TDD"
+[13]: https://github.com/dvberkel/jfall2012-datomic/tree/master/exploratory-tdd "Exploring Datomic via TDD"
 [14]: http://en.wikipedia.org/wiki/Test-driven_development "Wikipedia on Test Driven Development"
 [15]: http://maven.apache.org/ "Apache Maven homepage"
 
