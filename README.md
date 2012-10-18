@@ -59,7 +59,7 @@ section of the Datomic documentation.
 
 ### Installing in maven repository
 
-The code examples in this project use [Apache Maven][11] as a project
+The code examples in this project use [Apache Maven][15] as a project
 managment tool. In order to use Datomic with maven the Datomic library
 needs to be installed into the maven repository.
 
@@ -69,6 +69,14 @@ repository
     mvn install:install-file -DgroupId=com.datomic -DartifactId=datomic-free -Dfile=lib/datomic-free-0.8.3551/datomic-free-0.8.3551.jar -DpomFile=lib/datomic-free-0.8.3551/pom.xml
 
 and should produce the following [directory listing][11].
+
+What to do next?
+----------------
+
+I would advice you to look into the following projects
+
+1. [exploratory-tdd][13] is a project that explores the Datomic's
+   library API via [TDD][14].
 
 [1]: http://www.nljug.org/jfall/ "JFall homepage"
 [2]: https://github.com/dvberkel/jfall2012-datomic/blob/master/proposal.md "The proposal for this talk on GitHub"
@@ -82,4 +90,7 @@ and should produce the following [directory listing][11].
 [10]: http://docs.datomic.com/getting-started.html "Getting Started guide for Datomic"
 [11]: https://github.com/dvberkel/jfall2012-datomic/blob/master/datomic-repository.md "directory listing for datomic maven repository"
 [12]: https://github.com/dvberkel/jfall2012-datomic/blob/master/lib/installer.sh "Install script for Datomic"
+[13]: https://github.com/dvberkel/jfall2012-datomic/tree/master/lib "Exploring Datomic via TDD"
+[14]: http://en.wikipedia.org/wiki/Test-driven_development "Wikipedia on Test Driven Development"
+[15]: http://maven.apache.org/ "Apache Maven homepage"
 

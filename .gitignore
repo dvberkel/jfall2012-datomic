@@ -1,2 +1,7 @@
 lib/*.zip
 lib/datomic-free*
+
+**/.project
+**/.classpath
+**/.settings
+**/target
