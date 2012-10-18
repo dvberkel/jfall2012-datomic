@@ -16,6 +16,11 @@
 
   <dependencies>
     <dependency>
+      <groupId>com.datomic</groupId>
+      <artifactId>datomic-free</artifactId>
+      <version>0.8.3551</version>
+    </dependency>
+    <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>4.10</version>
