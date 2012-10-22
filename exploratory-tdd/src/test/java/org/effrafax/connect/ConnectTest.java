@@ -10,7 +10,7 @@ import datomic.Connection;
 import datomic.Peer;
 
 public class ConnectTest {
-	private static final String URI = "datamic:mem://exploratory-tdd";
+	private static final String URI = "datamic:mem://exploratory-tdd-connect";
 
 	@BeforeClass
 	public static void createDatabase() {

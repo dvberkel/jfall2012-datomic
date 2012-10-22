@@ -1,0 +1,37 @@
+[
+	;; address
+	{
+		:db/id #db/id[:db.part/db]
+		:db/ident :address/street
+  		:db/valueType :db.type/string
+  		:db/cardinality :db.cardinality/one
+		:db/doc "Street attribute of an address"
+		:db/fulltext true
+  		:db.install/_attribute :db.part/db
+	}
+	{
+		:db/id #db/id[:db.part/db]
+		:db/ident :address/number
+  		:db/valueType :db.type/long
+  		:db/cardinality :db.cardinality/one
+		:db/doc "number attribute of an address"
+  		:db.install/_attribute :db.part/db
+	}
+	{
+		:db/id #db/id[:db.part/db]
+		:db/ident :address/suffix
+  		:db/valueType :db.type/string
+  		:db/cardinality :db.cardinality/one
+		:db/doc "suffix attribute of an address, e.g. 51`b`"
+  		:db.install/_attribute :db.part/db
+	}
+	{
+		:db/id #db/id[:db.part/db]
+		:db/ident :address/city
+  		:db/valueType :db.type/string
+  		:db/cardinality :db.cardinality/one
+		:db/doc "city attribute of an address"
+  		:db.install/_attribute :db.part/db
+	}
+	
+]

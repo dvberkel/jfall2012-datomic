@@ -20,7 +20,7 @@ import datomic.Util;
 import datomic.peer.ATxReport;
 
 public class SchemaTest {
-	private static final String URI = "datamic:mem://exploratory-tdd";
+	private static final String URI = "datamic:mem://exploratory-tdd-schema";
 
 	@BeforeClass
 	public static void createDatabase() {
