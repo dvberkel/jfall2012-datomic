@@ -36,7 +36,7 @@ public class SchemaTest {
 
 	@SuppressWarnings("rawtypes")
 	@Test
-	public void shouldBeAbleToloadAmEmptySchema() throws FileNotFoundException, InterruptedException, ExecutionException {
+	public void shouldBeAbleToloadAnEmptySchema() throws FileNotFoundException, InterruptedException, ExecutionException {
 		Reader schema_rdr = new FileReader("src/test/resources/empty.schema.dtm");
 		List schema_tx = (List) Util.readAll(schema_rdr).get(0);
 
@@ -51,6 +51,14 @@ public class SchemaTest {
 		assertTrue(names.contains("db-after"));
 		assertTrue(names.contains("tempids"));
 		assertTrue(names.contains("tx-data"));
+	}
+
+	@Test
+	public void shoudldBeAbleToLoadAnTransactionWithMultipleDatoms() throws FileNotFoundException {
+		Reader schema_rdr = new FileReader("src/test/resources/necessary.schema.dtm");
+		List schema_tx = (List) Util.readAll(schema_rdr).get(0);
+
+		conn.transact(schema_tx);
 	}
 
 	@AfterClass

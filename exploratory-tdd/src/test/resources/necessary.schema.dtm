@@ -1,0 +1,27 @@
+[
+	;; transaction with map like structures
+	{
+		;; necessary attributes
+		:db/id #db/id[:db.part/db -1]
+		:db/ident :example/key
+  		:db/valueType :db.type/string
+  		:db/cardinality :db.cardinality/one
+  		:db.install/_attribute :db.part/db
+	}
+	{
+		:db/id #db/id[:db.part/db -2]
+		:db/ident :example/value
+  		:db/valueType :db.type/string
+  		:db/cardinality :db.cardinality/one
+		;; optional attributes
+		:db/doc "A documentation string to reveal the intent of the new attribute"
+		:db/fulltext false ;; indicates if a fulltext search index should be generated
+		:db/index false ;; indicates if an index should be generated for this attributes
+		:db/unique :db.unique/value ;; indicates the uniqueness constraint. Either `:db.unique/value`, `:db.unique/identity` or `nil`
+		;; esoteric options
+		:db/isComponent false ;; cascades retractions of a parent entity
+		:db/noHistory false ;; determine if past values are retained
+  		:db.install/_attribute :db.part/db
+	}
+	
+]
