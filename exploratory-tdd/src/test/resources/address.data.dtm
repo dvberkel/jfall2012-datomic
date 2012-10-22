@@ -1,0 +1,33 @@
+[
+	{
+		:db/id #db/id[:db.part/user]
+		:address/street "Wayne Manner"
+		:address/number 1
+		:address/city "Gotham"
+	}
+	{
+		:db/id #db/id[:db.part/user]
+		:address/street "Arkham Asylum"
+		:address/number 2
+		:address/city "Gotham"
+	}
+	{
+		:db/id #db/id[:db.part/user]
+		:address/street "Huge Mansion"
+		:address/number 3
+		:address/suffix "b"
+		:address/city "Ducktown"
+	}
+	{
+		:db/id #db/id[:db.part/user]
+		:address/street "Donald streed"
+		:address/number 4
+		:address/city "Ducktown"
+	}
+	{
+		:db/id #db/id[:db.part/user]
+		:address/street "Newspeak"
+		:address/number 5
+		:address/city "Oceania"
+	}
+]
