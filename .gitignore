@@ -5,3 +5,5 @@ lib/datomic-free*
 **/.classpath
 **/.settings
 **/target
+presentation/src/main/resources/data/*
+presentation/src/main/resources/log/*
