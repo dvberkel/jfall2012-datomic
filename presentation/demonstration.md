@@ -118,6 +118,8 @@ multiple values for `:community/category`.
 
     results = Peer.q("[:find ?e ?c :where [?e :community/name \"belltown\"][?e :community/category ?c]]",db);
 
+The latest example is querying across multiple references
 
+    result = Peer.q("[:find ?c_name :where [?c :community/name ?c_name][?c :community/neighborhood ?n][?n :neighborhood/district ?d][?d :district/region :region/ne]]",db);
 
 [1]: http://docs.datomic.com/getting-started.html "Instructions for free storage protocol"
