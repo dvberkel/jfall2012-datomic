@@ -3,6 +3,17 @@ Demonstration
 
 This file describes the demonstration script.
 
+Utility
+-------
+
+The following is a utility function for clearing a number of lines
+
+    void clear(int lines) {
+    	 for (int index = 0; index < lines; index++) {
+	     System.out.println();
+	 }
+    }
+
 Preparation
 -----------
 
